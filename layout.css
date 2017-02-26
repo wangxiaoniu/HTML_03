@@ -1,0 +1,142 @@
+@charset"utf-8";
+html,body{margin:0; height:100%;}
+h4{
+	padding: 0;
+	margin:0;
+}
+
+.container{
+	background: #eee;
+	border:1px solid #999;
+	height: auto;
+	margin:20px;
+	margin-bottom: 200px;
+	padding-bottom: 100px;
+	clear: both;
+}
+/*团队介绍*/
+.container .team_content{
+	border: 1px solid #999;
+	background: #fff;
+	margin:20px 155px 0px 160px;
+	height: auto;
+	padding: 20px;
+	padding-top: 0;
+	overflow: hidden;
+	word-wrap: break-word;
+
+}
+/*团队名称*/
+.container .team_name{
+	width: 160px;
+	height: 80px;
+	border: 1px solid #999;
+	background: #fff;
+	margin:20px;
+	padding:20px;
+	float: left;	
+}
+.container .team_name h4{
+	float: right;
+	font-weight: normal;
+}
+.container .team_name img{
+	display: block;
+	float:left;
+}
+/*团队个人信息*/
+.container .person{
+	width: 120px;
+	height: 406px;
+	border: 1px solid #999;
+	background: #fff;
+	margin:20px;
+	float: right;	
+}
+.container .person ul{
+	list-style-type: none;
+	width: 80px;
+	padding:0;
+	margin:20px;
+
+}
+.container .person ul li{
+	 width: 80px;
+	 height: 80px;
+	 margin-bottom: 15px;
+}
+.container .person img{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin:0 auto;
+	border:0;
+}
+
+/*position定位方式实现三栏布局*/
+.posit{
+	height: auto;
+	background: #eee;
+	border:1px solid #999;
+	margin: 20px;
+	padding-bottom: 100px;
+	position: relative;
+}
+.posit h5{
+	padding:0;
+	margin:0;
+}
+/*团队名称*/
+.team{
+	width: 160px;
+	height: 80px;
+	border:1px solid #999;
+	background: #fff;
+	padding:20px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.team h4{
+	font-weight: normal;
+	float: right;
+
+}
+.team img{
+	float: left;
+	display: block;
+
+}
+/*团队个人信息*/
+.team-person{
+	width: 120px;
+	height: 406px;
+	background: #fff;
+	border:1px solid #999;
+	position: absolute;
+	right: 20px;
+	top:20px;
+}
+.team-person ul{
+	list-style-type: none;
+	margin:0;
+	padding: 20px;
+}
+.team-person ul li{
+	width: 80px;
+	height: 80px;
+	padding-bottom: 15px;
+}
+.team-person ul li img{
+	display: block;
+	width: 80px;
+	height: 80px;
+}
+/*团队介绍*/
+.team-con{
+	background: #fff;
+	border:1px solid #999;
+	margin:20px 160px 0 240px;
+	padding: 20px;
+
+}
